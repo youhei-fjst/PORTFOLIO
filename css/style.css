@@ -1,0 +1,174 @@
+@charset "utf-8";
+
+body {
+  background: #eaeaea;
+}
+
+.pc {
+  display: none;
+}
+
+.firstview {
+  width: 100%;
+  padding: 16px;
+  height: 640px;
+  color: #fff;
+  background: url(img/22475643_l.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  header {
+    width: calc(100% - 32px);
+    display: flex;
+    justify-content: space-between;
+
+    nav {
+      display: none;
+
+      a {
+      margin: 32px;
+      color: #fff;
+      }
+    }
+  }
+
+  img {
+    margin: 0 auto 0 0;
+  }
+
+}
+
+h3 {
+  margin: 0 16px;
+}
+
+/* .pickup{
+  height: 48px;
+} */
+
+.pickup {
+  object-fit: cover;
+  height: 100%;
+}
+
+.works {
+  margin: 32px 0 0;
+
+  img {
+    margin: 0 auto 0 0;
+  }
+}
+
+.one {
+  max-width: 1800px;
+  width: calc(100% - 128px);
+  padding: 32px 0;
+  border-top: #000 1px solid;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  margin: 0 auto;
+
+  .two {
+    margin: 32px 0;
+
+    .three {
+      margin: 16px 0;
+
+      .date,
+      .gaiyou {
+        margin: 16px 0;
+        flex: 1;
+        
+        p{
+          margin: 4px 0;
+        }
+      }
+    }
+  }
+}
+
+.about {
+  background: #fff;
+  padding: 32px 0;
+}
+
+.icon img {
+  border-radius: 50%;
+}
+
+.youhei {
+  margin: 0 auto;
+  max-width: 960px;
+  width: calc(100% - 128px);
+
+  p {
+    /* text-align: left; */
+  }
+}
+
+.kuwasiku {
+  display: flex;
+  width: 240px;
+  margin: 0 auto;
+}
+
+.contact {
+  background: #e7cc49;
+  padding: 16px 0;
+
+  .cntct {
+    font-size: 64px;
+  }
+
+  .address {
+    margin: 16px auto;
+    width: 480px;
+    height: 64px;
+    background: #fff;
+    border-radius: 32px;
+
+    a {
+      line-height: 64px;
+    }
+  }
+}
+
+.circle {
+  margin: 16px;
+  border: #000 1px solid;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  align-items: center;
+}
+
+.circle img {
+  align-items: center;
+  margin: auto;
+}
+
+footer {
+  background: #000;
+  padding: 32px 0;
+
+  nav {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: calc(100% - 128px);
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+    a {
+      margin: 0 0 16px;
+      color: #fff;
+      font-size: 16px;
+    }
+  }
+
+  small {
+    color: #fff;
+    font-size: 12px;
+  }
+}
