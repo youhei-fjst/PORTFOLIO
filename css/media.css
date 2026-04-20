@@ -105,42 +105,4 @@
     }
   }
 
-  .circle {
-    margin: 16px;
-    border: #000 1px solid;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    align-items: center;
-  }
-
-  .circle img {
-    align-items: center;
-    margin: auto;
-  }
-
-  footer {
-    background: #000;
-    padding: 32px 0;
-
-    nav {
-      margin: 0 auto;
-      max-width: 1280px;
-      width: calc(100% - 128px);
-      display: flex;
-      flex-direction: column;
-      text-align: left;
-
-      a {
-        margin: 0 0 16px;
-        color: #fff;
-        font-size: 16px;
-      }
-    }
-
-    small {
-      color: #fff;
-      font-size: 12px;
-    }
-  }
 }
