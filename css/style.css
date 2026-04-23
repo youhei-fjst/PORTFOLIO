@@ -29,8 +29,8 @@ body {
       display: none;
 
       a {
-      margin: 32px;
-      color: #fff;
+        margin: 32px;
+        color: #fff;
       }
     }
   }
@@ -43,56 +43,69 @@ body {
 
 /* 全体ラッパー */
 .slideshow {
- width: 100%;      /* 横幅いっぱいに広げる */
- padding: 24px 0;    /* 上下に余白 */
+  width: 100%;
+  /* 横幅いっぱいに広げる */
+  padding: 24px 0;
+  /* 上下に余白 */
 }
 
 /* 表示領域（はみ出した部分を隠す） */
 .slideshow-viewport {
- overflow: hidden;   /* はみ出た要素を非表示にする */
- width: 100%;
+  overflow: hidden;
+  /* はみ出た要素を非表示にする */
+  width: 100%;
 }
 
 /* スライド全体（横並びで流れる部分） */
 .slideshow-track {
- display: flex;             /* 横並びにする */
- gap: 82px;               /* スライド間の余白 */
- width: max-content;          /* 中身の幅に合わせて広がる */
- animation: slideshow-marquee 28s linear infinite;
- /* ↑ 28秒かけて一定速度で無限ループ */
+  display: flex;
+  /* 横並びにする */
+  gap: 82px;
+  /* スライド間の余白 */
+  width: max-content;
+  /* 中身の幅に合わせて広がる */
+  animation: slideshow-marquee 28s linear infinite;
+  /* ↑ 28秒かけて一定速度で無限ループ */
 }
 
 /* 各スライド要素 */
 .slideshow-track li {
- flex: 0 0 auto;    /* 縮まない・固定幅 */
- width: min(360px, 75vw); /* 最大360px、画面に応じて縮小 */
- height: 200px;     /* 高さ固定 */
- display: flex;
- align-items: center;  /* 中央揃え（縦） */
- justify-content: center; /* 中央揃え（横） */
- background: #989898;  /* 画像読み込み前の背景 */
+  flex: 0 0 auto;
+  /* 縮まない・固定幅 */
+  width: min(360px, 75vw);
+  /* 最大360px、画面に応じて縮小 */
+  height: 200px;
+  /* 高さ固定 */
+  display: flex;
+  align-items: center;
+  /* 中央揃え（縦） */
+  justify-content: center;
+  /* 中央揃え（横） */
+  background: #989898;
+  /* 画像読み込み前の背景 */
 }
 
 /* 画像の表示設定 */
 .slideshow-track img {
- width: 100%;
- height: 100%;
- object-fit: cover;   /* はみ出してもトリミングして全面表示 */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* はみ出してもトリミングして全面表示 */
 }
 
 /* アニメーション定義 */
 @keyframes slideshow-marquee {
- 0% {
-  transform: translateX(0);
-  /* 初期位置 */
- }
+  0% {
+    transform: translateX(0);
+    /* 初期位置 */
+  }
 
- 100% {
-  transform: translateX(-50%);
-  /* 横幅の半分だけ左に移動
+  100% {
+    transform: translateX(-50%);
+    /* 横幅の半分だけ左に移動
     → コンテンツを2セット用意しているため、
      ちょうど継ぎ目なくループする */
- }
+  }
 }
 
 h3 {
@@ -104,8 +117,14 @@ h3 {
 } */
 
 .pickup {
-  object-fit: cover;
-  height: 100%;
+  width: 100%;
+  height: auto;
+
+  img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+  }
 }
 
 .works {
@@ -133,8 +152,8 @@ h3 {
       .gaiyou {
         margin: 16px 0;
         flex: 1;
-        
-        p{
+
+        p {
           margin: 4px 0;
         }
       }
