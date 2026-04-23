@@ -11,8 +11,8 @@
 }
 
 .design {
-  margin: 64px 0 32px;
-  width: 100%;
+  margin: 64px auto 32px;
+  width: 320px;
   height: auto;
   
   .designpc,
@@ -22,6 +22,8 @@
     margin: 32px 0;
     
     img{
+      width: 100%;
+      height: 100%;
       object-fit: cover;
     }
   }
