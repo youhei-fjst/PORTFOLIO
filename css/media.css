@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-@media(width>=1120px) {
+@media(width>=1140px) {
 
   section>p {
     font-size: 32px;
@@ -50,6 +50,16 @@
         display: flex;
         flex: 1;
       }
+
+      .samuneiru {
+        width: 420px;
+
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+
     }
   }
 
