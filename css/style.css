@@ -63,7 +63,7 @@ body {
   /* スライド間の余白 */
   width: max-content;
   /* 中身の幅に合わせて広がる */
-  animation: slideshow-marquee 28s linear infinite;
+  animation: slideshow-marquee 20s linear infinite;
   /* ↑ 28秒かけて一定速度で無限ループ */
 }
 
@@ -109,6 +109,7 @@ body {
 
 h3 {
   margin: 0 16px;
+  font-weight: bold;
 }
 
 .pickup {
