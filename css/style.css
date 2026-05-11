@@ -173,19 +173,23 @@ h3 {
 .about {
   background: #fff;
   padding: 32px 0;
-}
-
-.icon img {
-  border-radius: 50%;
-}
-
-.youhei {
-  margin: 0 auto;
-  max-width: 960px;
-  width: calc(100% - 128px);
-
-  p {
-    /* text-align: left; */
+  
+  .icon {
+    margin: 16px 0;
+  
+    img {
+      border-radius: 50%;
+    }
+  }
+  
+  .youhei {
+    margin: 16px auto;
+    max-width: 960px;
+    width: calc(100% - 128px);
+    
+    .name {
+      margin: 16px 0;
+    }
   }
 }
 
