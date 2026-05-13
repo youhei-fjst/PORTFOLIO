@@ -193,6 +193,12 @@ h3 {
   }
 }
 
+.aisatsu {
+  margin: 0 auto;
+  width: 576px;
+  text-align: left;
+}
+
 .kuwasiku {
   display: flex;
   width: 240px;
